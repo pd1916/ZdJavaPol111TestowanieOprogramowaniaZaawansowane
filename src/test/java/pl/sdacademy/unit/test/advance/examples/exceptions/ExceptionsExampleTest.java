@@ -10,7 +10,7 @@ class ExceptionsExampleTest {
 
     @ParameterizedTest
     @ValueSource(strings = {"abcde"})
-    void shouldReturnExceptionIfInputIsNullOrEmpty(String input) {
+    void shouldReturnExceptionIfLengthIsEqualTo5(String input) {
         //when&then
         //JUnit5
         assertThrows(IllegalArgumentException.class,
