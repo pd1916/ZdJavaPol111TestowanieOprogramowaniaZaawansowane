@@ -47,6 +47,12 @@
             <version>${org.mockito.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>5.8.2</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
     <build>
